@@ -1,0 +1,10 @@
+Computer Science 124 printf statements:
+
+%d		int, unsigned int			(gets 16 bits)
+%ld		long, unsigned long			(gets 32 bits)
+%hd		char, unsigned char			(gets 8 bits)
+%f		float, double
+
+for these formats, you must right click on the project and go to preferences. Go to Advanced Options->Library assumptions. Change the printf to full.
+
+printf is defaulting to minimal, which will do %d, but not the other formats. You need to enable the full library in order to access the other formats.
